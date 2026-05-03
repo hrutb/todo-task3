@@ -1,0 +1,44 @@
+
+body{ 
+     background-color:rgb(181, 232, 243);
+     
+}
+ 
+
+/* .theme{ 
+        
+   } */
+
+.active{ 
+      background-color:rgb(2, 2, 47) ;
+      color: rgb(14, 56, 93);
+     
+     }
+.themeBtn{ 
+           position:absolute;
+           top:10px;
+           right:50px;
+}
+
+.card{ 
+       border-radius:30px;
+}  
+
+li{ 
+     transition:all .5s linear;
+     border-radius:10px;
+}
+
+li:hover{ 
+        transform:scale(1.1);
+        box-shadow:20px 20px 50px 10px salmon inset; 
+     }  
+
+.card li i{ 
+     transition:all 0.4s linear;
+}
+.card li i:hover{ 
+     transform:scale(1.1) 
+        
+}
+
