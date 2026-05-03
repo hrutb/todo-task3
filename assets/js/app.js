@@ -36,8 +36,8 @@ let todoArr = [
             result +=`<li id='${ele.todoId}' class="list-group-item d-flex justify-content-between mt-3">
                       <Strong>${ele.todoItem}</Strong>
                         <div>
-                          <i onclick="onEdit(this) "class="fa-solid fa-pen-to-square fa-2x text-primary"></i>   
-                          <i onclick="onRemove(this)"  class="fa-solid fa-trash fa-2x text-danger"></i>
+                          <i onclick="onEdit(this) "class="fa-solid fa-pen-to-square  text-primary"></i>   
+                          <i onclick="onRemove(this)"  class="fa-solid fa-trash  text-danger"></i>
                         </div> 
                      </li>`
         })
